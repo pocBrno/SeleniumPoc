@@ -1,4 +1,4 @@
-package AutomationPractice;
+package KBCSharedServices;
 
 /**
  * Created by Gigabyte on 17.10.2016.
@@ -7,13 +7,10 @@ package AutomationPractice;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import org.junit.*;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
-import AutomationPractice.SignUpDashboard;
 
 
 public class SignUpLogin {
