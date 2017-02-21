@@ -39,10 +39,6 @@
             <artifactId>testng</artifactId>
             <version>6.9.13.6</version>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>RELEASE</version>
-        </dependency>
+
     </dependencies>
 </project>

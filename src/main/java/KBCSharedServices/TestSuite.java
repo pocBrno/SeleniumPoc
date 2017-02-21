@@ -1,10 +1,9 @@
 package KBCSharedServices;
 
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
+import org.testng.reporters.XMLReporter;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
 import org.openqa.selenium.JavascriptExecutor;
@@ -12,8 +11,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
-
 
 
 /**
@@ -34,7 +31,7 @@ public class TestSuite {
     public void InitTest(){
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         js = (JavascriptExecutor)driver;
 
     }
@@ -114,7 +111,6 @@ public class TestSuite {
         contact = new Contact(driver);
         driver.get("http://www.kbcsharedservicecenter.cz/contact");
         contact.contact_facebook.click();
-
         assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/KBCBankEnVerzekering/");
     }
 
