@@ -5,18 +5,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-/**
- * Created by brnot on 20.02.2017.
- */
-public class MainPage {
-
+public class AboutUs {
     private WebDriver driver;
 
 
-    @FindBy(xpath = "//div[contains(@id, 'title')]/h1")
-    public WebElement mainPage_title;
+    @FindBy(xpath = "//a[contains(@href, 'https://www.kbc.com/')]")
+    public WebElement aboutUs_link_KBCSite;
 
-    public MainPage(WebDriver driver) {
+
+
+    public AboutUs(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

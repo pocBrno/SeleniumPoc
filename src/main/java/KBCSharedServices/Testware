@@ -8,20 +8,22 @@ CHECK title "MASTER WITH US"
 OPEN ssc webpage
 GOTO page "About Us"
 CHECK active page (CSS)
+
+[Test02a]
+OPEN ssc webpage
+GOTO page "About Us"
 CLICK on link "www.kbc.com"
 CHECK title "KBC Group"
 
 [Test03]
 OPEN ssc webpage
 GOTO page "Career"
-CHECK active page (CSS)
 CLICK on "Onboarding Project Manager" career tile
 CHECK title "Onboarding Project Manager"
 
 [Test04]
 OPEN ssc webpage
 GOTO page "Career"
-CHECK active page (CSS)
 READ First career tile
 CLICK on First career tile
 COMPARE First career tile and page title
@@ -29,7 +31,6 @@ COMPARE First career tile and page title
 [Test05]
 OPEN ssc webpage
 GOTO page "Career"
-CHECK active page (CSS)
 READ First "FULL-TIME" career tile
 CLICK on First "FULL-TIME" career tile
 CHECK text "full-time" in frame
@@ -37,7 +38,6 @@ CHECK text "full-time" in frame
 [Test06]
 OPEN ssc webpage
 GOTO page "Career"
-CHECK active page (CSS)
 READ First "PART-TIME" career tile
 CLICK on First "PART-TIME" career tile
 CHECK text "part-time" in frame
@@ -45,14 +45,16 @@ CHECK text "part-time" in frame
 [Test07]
 OPEN ssc webpage
 GOTO page "Contact"
-CHECK active page (CSS)
 CHECK title "OUR RECRUITMENT TEAM"
-CLICK on LinkedIn icon for "Veronika Stankova"
-CHECK webpage address "https://www.linkedin.com/in/vstankova/en"
+
+[Test07a]
+OPEN ssc webpage
+GOTO page "Contact"
+CLICK on LinkedIn 3rd icon
+CHECK webpage address "https://cz.linkedin.com/in/martinfajkos"
 
 [Test08]
 OPEN ssc webpage
 GOTO page "Contact"
-CHECK active page (CSS)
 CLICK on Facebook icon in footer
 CHECK webpage address "https://www.facebook.com/KBCBankEnVerzekering/"
