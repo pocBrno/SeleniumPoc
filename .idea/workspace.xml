@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0624959f-d30e-424a-8e94-c0309b7efd20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/KBCSharedServices/AboutUs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/KBCSharedServices/Career.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/KBCSharedServices/Contact.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/KBCSharedServices/SignUpDashboard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/KBCSharedServices/SignUpLogin.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/KBCSharedServices/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/KBCSharedServices/HomePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java" afterPath="$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/KBCSharedServices/Testware" afterPath="$PROJECT_DIR$/src/main/java/KBCSharedServices/Testware" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -127,6 +119,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="brnot &lt;brno.test.processing@outlook.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -647,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487607581307</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="kbcSSC alltests">
+      <created>1487687862479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1487687862479</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -739,7 +743,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kbcSSCUpdate" />
-    <option name="LAST_COMMIT_MESSAGE" value="kbcSSCUpdate" />
+    <MESSAGE value="kbcSSC alltests" />
+    <option name="LAST_COMMIT_MESSAGE" value="kbcSSC alltests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
