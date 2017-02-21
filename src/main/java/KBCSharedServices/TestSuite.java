@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
 import org.testng.reporters.XMLReporter;
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotEquals;
 import static org.testng.Assert.assertNotNull;
 import org.openqa.selenium.JavascriptExecutor;
 
@@ -103,7 +104,7 @@ public class TestSuite {
         js.executeScript("arguments[0].setAttribute('target','_self')", contact.contact_recruiter_LinkedIn );
         contact.contact_recruiter_LinkedIn.click();
 
-        assertEquals(driver.getCurrentUrl(), "https://cz.linkedin.com/in/martinfajkos");
+        assertNotEquals(driver.getCurrentUrl(), "http://www.kbcsharedservicecenter.cz/contact");
     }
 
     @Test

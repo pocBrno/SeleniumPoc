@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0624959f-d30e-424a-8e94-c0309b7efd20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testng.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java" afterPath="$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testSelenium.iml" afterPath="$PROJECT_DIR$/testSelenium.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSuite.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestSuite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="1583">
+              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="119">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -165,9 +162,9 @@
         <option value="$PROJECT_DIR$/src/main/java/KBCSharedServices/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/KBCSharedServices/Testware" />
         <option value="$PROJECT_DIR$/src/main/java/KBCSharedServices/Contact.java" />
-        <option value="$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java" />
       </list>
     </option>
   </component>
@@ -389,6 +386,39 @@
       <option name="PACKAGE_NAME" value="KBCSharedServices" />
       <option name="MAIN_CLASS_NAME" value="KBCSharedServices.TestSuite" />
       <option name="METHOD_NAME" value="RedirectFromAboutUSToKBCSite" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSuite.NavigateFromContactToLinkedIn" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="KBCSharedServices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="testSelenium" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="KBCSharedServices" />
+      <option name="MAIN_CLASS_NAME" value="KBCSharedServices.TestSuite" />
+      <option name="METHOD_NAME" value="NavigateFromContactToLinkedIn" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -794,7 +824,7 @@
       <listeners />
       <method />
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/brnot/.IdeaIC2016.3/system/temp-testng-customsuite.xml" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/brnot/IdeaProjects/kbcsharedservices/testng.xml" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.TestSuite" />
@@ -802,11 +832,13 @@
       <item index="4" class="java.lang.String" itemvalue="TestNG.TestSuite.ClickCareerTileByName" />
       <item index="5" class="java.lang.String" itemvalue="TestNG.TestSuite.ClickCareerTileByOrder" />
       <item index="6" class="java.lang.String" itemvalue="TestNG.TestSuite.RedirectFromAboutUSToKBCSite" />
+      <item index="7" class="java.lang.String" itemvalue="TestNG.TestSuite.NavigateFromContactToLinkedIn" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestSuite.RedirectFromAboutUSToKBCSite" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestSuite.ClickCareerTileByOrder" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestSuite.NavigateFromContactToLinkedIn" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestSuite.RedirectFromAboutUSToKBCSite" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestSuite.ClickCareerTileByOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -842,7 +874,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487687877656</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kbcSSC testNGxml">
+      <created>1487696484068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1487696484068</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -858,17 +897,17 @@
     <history-entry file="TestSuite - 2017.02.21 at 16h 52m 31s.xml">
       <configuration name="TestSuite" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuite_RedirectFromAboutUSToKBCSite - 2017.02.21 at 14h 35m 25s.xml">
-      <configuration name="TestSuite.RedirectFromAboutUSToKBCSite" configurationId="TestNG" />
+    <history-entry file="TestSuite - 2017.02.21 at 18h 02m 53s.xml">
+      <configuration name="TestSuite" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuite_RedirectFromAboutUSToKBCSite - 2017.02.21 at 14h 37m 41s.xml">
-      <configuration name="TestSuite.RedirectFromAboutUSToKBCSite" configurationId="TestNG" />
+    <history-entry file="TestSuite - 2017.02.21 at 18h 04m 38s.xml">
+      <configuration name="TestSuite" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuite_RedirectFromAboutUSToKBCSite - 2017.02.21 at 14h 42m 49s.xml">
-      <configuration name="TestSuite.RedirectFromAboutUSToKBCSite" configurationId="TestNG" />
+    <history-entry file="TestSuite - 2017.02.21 at 18h 07m 19s.xml">
+      <configuration name="TestSuite" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuite_RedirectFromAboutUSToKBCSite - 2017.02.21 at 15h 06m 57s.xml">
-      <configuration name="TestSuite.RedirectFromAboutUSToKBCSite" configurationId="TestNG" />
+    <history-entry file="TestSuite_NavigateFromContactToLinkedIn - 2017.02.21 at 18h 06m 18s.xml">
+      <configuration name="TestSuite.NavigateFromContactToLinkedIn" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestSuite_RedirectFromAboutUSToKBCSite - 2017.02.21 at 15h 08m 06s.xml">
       <configuration name="TestSuite.RedirectFromAboutUSToKBCSite" configurationId="TestNG" />
@@ -879,7 +918,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -889,8 +928,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31744313" sideWeight="0.59648186" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31744313" sideWeight="0.4035181" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4073673" sideWeight="0.4035181" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -935,26 +974,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kbcSSCUpdate" />
     <MESSAGE value="kbcSSC alltests" />
-    <option name="LAST_COMMIT_MESSAGE" value="kbcSSC alltests" />
+    <MESSAGE value="kbcSSC testNGxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="kbcSSC testNGxml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java</url>
-          <line>41</line>
+          <line>42</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java</url>
-          <line>18</line>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java</url>
-          <line>68</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -1172,16 +1212,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestSuite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1200,9 +1230,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/KBCSharedServices/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1583">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
