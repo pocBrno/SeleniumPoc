@@ -2,11 +2,10 @@ package KBCSharedServices;
 
 import java.util.concurrent.TimeUnit;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 import org.testng.reporters.XMLReporter;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNotEquals;
-import static org.testng.Assert.assertNotNull;
+
 import org.openqa.selenium.JavascriptExecutor;
 
 import org.openqa.selenium.WebDriver;
@@ -34,13 +33,12 @@ public class TestSuite {
         driver.manage().window().maximize();
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         js = (JavascriptExecutor)driver;
-
     }
     @Test
     public void CheckMainPage(){
         homePage = new HomePage(driver);
         driver.get("http://www.kbcsharedservicecenter.cz/");
-        assertEquals(homePage.mainPage_title.getText(), "KBC SHARED SERVICE CENTER");
+        Assert.assertEquals(homePage.mainPage_title.getText(), "KBC SHARED SERVICE CENTER");
     }
 
     @Test
@@ -49,7 +47,7 @@ public class TestSuite {
         driver.get("http://www.kbcsharedservicecenter.cz/");
 
         homePage.mainPage_menu_aboutUs.click();
-        assertEquals(homePage.mainPage_menu_active.getText(), "ABOUT US");
+        Assert.assertEquals(homePage.mainPage_menu_active.getText(), "ABOUT US");
     }
 
     @Test
@@ -59,7 +57,7 @@ public class TestSuite {
         js.executeScript("arguments[0].setAttribute('target','_self')", aboutUs.aboutUs_link_KBCSite );
         aboutUs.aboutUs_link_KBCSite.click();
 
-        assertEquals(driver.getCurrentUrl(), "https://www.kbc.com/en");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://www.kbc.com/en");
     }
 
     @Test
@@ -68,7 +66,7 @@ public class TestSuite {
         driver.get("http://www.kbcsharedservicecenter.cz/career");
         career.career_careerTile_CustodyNinja.click();
         career.career_detail_careerTitle.getText();
-        assertEquals(career.career_detail_careerTitle.getText(), "CUSTODY NINJA");
+        Assert.assertEquals(career.career_detail_careerTitle.getText(), "CUSTODY NINJA");
     }
 
     @Test
@@ -77,7 +75,7 @@ public class TestSuite {
         driver.get("http://www.kbcsharedservicecenter.cz/career");
         career.career_careerTile_First.click();
 
-        assertEquals(career.career_detail_careerTitle.getText(), "ONBOARDING PROJECT MANAGER");
+        Assert.assertEquals(career.career_detail_careerTitle.getText(), "ONBOARDING PROJECT MANAGER");
     }
 
     @Test
@@ -86,7 +84,7 @@ public class TestSuite {
         driver.get("http://www.kbcsharedservicecenter.cz/career");
         career.career_careerTile_PartTime.click();
 
-        assertNotNull(career.career_detail_PartTime);
+        Assert.assertNotNull(career.career_detail_PartTime);
     }
 
     @Test
@@ -94,7 +92,7 @@ public class TestSuite {
         contact = new Contact(driver);
         driver.get("http://www.kbcsharedservicecenter.cz/contact");
 
-        assertEquals(contact.contact_title.getText(), "OUR RECRUITMENT TEAM");
+        Assert.assertEquals(contact.contact_title.getText(), "OUR RECRUITMENT TEAM");
     }
 
     @Test
@@ -104,7 +102,7 @@ public class TestSuite {
         js.executeScript("arguments[0].setAttribute('target','_self')", contact.contact_recruiter_LinkedIn );
         contact.contact_recruiter_LinkedIn.click();
 
-        assertNotEquals(driver.getCurrentUrl(), "http://www.kbcsharedservicecenter.cz/contact");
+        Assert.assertNotEquals(driver.getCurrentUrl(), "http://www.kbcsharedservicecenter.cz/contact");
     }
 
     @Test
@@ -112,7 +110,7 @@ public class TestSuite {
         contact = new Contact(driver);
         driver.get("http://www.kbcsharedservicecenter.cz/contact");
         contact.contact_facebook.click();
-        assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/KBCBankEnVerzekering/");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/KBCBankEnVerzekering/");
     }
 
     @AfterTest
